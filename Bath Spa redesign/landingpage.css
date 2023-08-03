@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: sans-serif;
+
+}
+
+
+/* course list container for entire page */
+
+.course-list-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:25px;
+}
+
+
+
+.page-numbers {
+    font-size: 1.3rem;
+    font-weight:bold;
+    position:relative;
+    left:80%;
+    text-align: center;
+    list-style: none;
+    display:flex;
+    gap:2rem;
+    margin-bottom:3rem;
+}
+
+.list-number {
+    cursor: pointer;
+}
+
+.list-number:hover {
+    color:#007EAC;
+}
+
+/* Search bar container on the left */
+.search{
+    color:whitesmoke;
+    top:7.5rem;
+    left:0;
+    bottom:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-width: 300px;
+    padding:30px 30px;
+    height:100%;
+    position:fixed;
+    background-color: #007EAC;
+    border-top-right-radius: 25px;
+}
+
+.sidebar-link-cont {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.sidebar-link {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    position: relative;
+    top:2rem;
+    font-size: 1rem;
+}
+
+select {
+    border:none;
+    outline:none;
+    font-size:1rem;
+}
+
+button{
+    font-size:1rem;
+    background-color: white;
+    border:none;
+    outline: none;
+    padding:5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width:200px;
+    font-weight:600;
+    border:solid #007EAC;
+
+}
+
+button:hover {
+    background-color: #007EAC;
+    color:whitesmoke;
+    border:solid white;
+
+}
+
+
+/*  search bar at the top */
+
+.course-search-bar p{
+    position: relative;
+    top:1.5rem;
+   
+}
+
+.course-search-bar input {
+    position:relative;
+    top:5rem;
+    width:550px;
+    font-size:1rem;
+    border: 2px solid #007EAC;
+    outline:none;
+    border-radius: 25px;
+    padding:5px 10px;
+}
+
+.logo {
+    position: fixed;
+    left:10px;
+    top:10px;
+}
+
+
+
+/* Filter courses container styling */
+
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+
+}
+
+.filter-container select{
+    padding:5px 10px;
+    width:200px;
+}
+
+/* Search bar field */
+
+
+
+
+/* course container */
+.course-list {
+    margin-left:20rem;
+    margin-top:7.5rem;
+    /* border:1px solid black; */
+    display: grid;
+    column-gap:3rem;
+    row-gap: 3rem;
+    grid-template-columns:repeat(3, 250px);
+    padding-top:20px;
+}
+
+/*  styling for each individual course selection */
+.course-container{
+    word-spacing: 3px;
+    
+}
+
+.course-container:hover {
+    cursor:pointer;
+}
+
+.course {
+    width:250px;
+    height:220px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing:1px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /* box-shadow: 0 15px 20px rgba(0, 0, 0, 1); */
+    cursor:pointer;
+    /* font-size: 0.9rem; */
+}
+
+/* Anchor tag for link on course elements */
+a{
+    text-decoration: none;
+}
+
+.course-h2{
+    text-align: center;
+    padding:1rem 0 ;
+    width:100%;
+    max-width:250px;
+    color:whitesmoke;
+    background-color: #007EAC;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 0.8rem;
+}
+
+.course:hover {
+    transform: scale(0.99);
+    transition: all ease-in-out 0.5s;
+    Z-index:999;
+}
+
+.architecture {
+    background-image: url(images/architecture-3357028_1280);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.acting {
+    background-image:url('/images/acting');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.arts-management {
+    background-image: url('/images/arts');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.biology {
+background-image: url('/images/biology');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.biomedical-science {
+    background-image: url('/images/biomedical');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.business-and-management {
+    background-image: url('/images/business-management.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.business-and-management-post {
+    background-image:url('/images/postgraduate.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.business-and-management-accounting {
+    background-image: url('/images/accounting.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.business-and-management-economics {
+    background-image: url('/images/economics.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.business-and-management-ent{
+    background-image: url(/images/ent.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.business-and-management-fashion {
+    background-image: url('/images/fashion.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.business-and-management-festivals {
+    background-image: url('/images/festival-events.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+/* Styling for each individual description */
+
+.description {
+    color: whitesmoke;
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    z-index: -99;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color: #007EAC;
+    border-top-left-radius: 25px;
+    border-top-right-radius:25px;
+    padding:30px 15px;
+    opacity: 0;
+    font-size: 1rem;
+
+}
+
+.show{
+    z-index:999;
+    transition: all ease-in-out 0.8s;
+    opacity: 1;
+}
+
+
+
+

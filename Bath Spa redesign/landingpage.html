@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bath Spa courses</title>
+    <link rel="stylesheet" href="landingpage.css">
+    <script src='/landingpage.js' defer></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    
+</head>
+<body>
+    
+
+<div class="course-list-cont">
+    <div class='course-search-bar'>
+        <p>Home / Courses</p>
+
+        <input type="search" id="course-search" placeholder="Search Course">
+
+    </div>
+
+    <div class='logo'>
+        <img src="/images/Bath-logo.svg" alt="">
+    </div>
+
+    <div class="search">    
+        <div class="filter-container">
+            
+            <label for="course-level">Course level</label>
+            <select name="filter-course-level" id="course-level" class='filter-bar'>
+                <option value="select-option" selected>Select option</option>
+                <option value="undergraduate">Undergraduate</option>
+                <option value="postgraduate">Postgraduate</option>
+                <option value="pgce/teaching">PGCE/Teaching</option>
+                <option value="foundation">Foundation</option>
+                <option value="integrated">Integrated</option>
+                <option value="short-course">Short Course</option>
+            </select>
+            <label for="course-options">Course options</label>
+            <select name="filter-course-options" id="course-options" class='filter-bar'>
+                <option value="select-option" selected>Select option</option>
+                <option value="combined-honours">Combined honours</option>
+                <option value="single-honours">Single honours</option>
+            </select>
+            <label for="school-of-study">Bath schools of study</label>
+            <select name="filter-school-of-study" id="school-of-study" class='filter-bar'>
+                <option value="select-option" selected>Select option</option>
+                <option value="bath-business-school">Bath Business School</option>
+                <option value="bath-school-of-art">Bath School of Art, Media, and Design</option>
+                <option value="bath-school-of-design">Bath School of Design</option>
+                <option value="bath-school-of-music-and-performing-arts">Bath School of Music and Performing Arts</option>
+                <option value="bath-school-of-education">School of Education</option>
+                <option value="bath-school-of-sciences">School of Sciences</option>
+
+            </select>
+            <button>Search</button>
+
+        </div> 
+        
+        <div class="sidebar-link-cont">
+            <h2><a class='sidebar-link' href='https://www.bathspa.ac.uk/courses/course-index-a-z/'>View Course A-Z index</a></h2>
+            <h2><a class='sidebar-link' href="https://www.bathspa.ac.uk/about-us/networks/educational-partners/">View courses available through our partners</a></h2>
+        </div>
+       
+
+            
+            
+            
+        
+    </div>
+
+    <div class='course-list' id='masonry-container'>
+   
+    <a href="https://www.bathspa.ac.uk/courses/ug-acting/"><div class='course-container' acting>
+        <div class="course acting masonry-item">
+            <div class="description description-acting">
+                <div class="">
+                    <p>Prepare for a portfolio career. Train as an actor who can work across a range of media including theatre, screen, radio and voiceover.</p>
+                </div> 
+                <div class="level">
+                    <p><span>Level:</span>Undergraduate</p>
+                </div>
+            </div>
+            
+
+            
+        </div>
+        <div class="course-h2">
+            <h2>Acting</h2>
+
+        </div>
+    </div></a>
+        
+    <a href="https://www.bathspa.ac.uk/courses/ug-architecture/">
+    <div class="course-container">
+        <div class="course architecture masonry-item">
+            <div class="description description-architecture">
+                <div class="">
+                    <p>Create innovative designs that respond to the needs of communities, social initiatives and complex issues such as climate change.</p>
+                </div> 
+                <div class="level">
+                    <p><span>Level:</span> Undergraduate</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="course-h2">
+            <h2>Architecture</h2>
+
+        </div>
+    </div>
+    </a>
+
+    <a href="https://www.bathspa.ac.uk/courses/pg-arts-management/">
+    <div class="course-container">
+        <div class="course arts-management masonry-item">
+            <div class="description description-arts">
+                <div class="">
+                    <p>Experience and understand the creative economy, cultural policy and current best practice in professional arts management.</p>
+                </div> 
+                <div class="level">
+                    <p><span>Level:</span> Postgraduate</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="course-h2">
+            <h2>Arts Management</h2>
+        </div>
+    </div>
+    </a>
+
+
+    <a href="https://www.bathspa.ac.uk/courses/ug-biology/">
+    <div class="course-container">
+        <div class="course biology masonry-item">
+            <div class="description description-biology">
+                <div class="">
+                    <p>A contemporary, skills-based Biology degree that produces highly employable biology professionals.</p>
+                </div> 
+                <div class="level">
+                    <p><span>Level:</span> Undergraduate</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="course-h2">
+            <h2>Biology</h2>
+
+        </div>
+    </div>
+    </a>
+
+
+
+    <a href="https://www.bathspa.ac.uk/courses/ug-biomedical-science/">
+    <div class="course-container">
+        <div class="course biomedical-science masonry-item">
+            <div class="description description-biomedical">
+                <div class="">
+                    <p>Our practical, lab-based Biomedical Science degree prepares you for a career where you can make a difference.</p>
+                </div> 
+                <div class="level">
+                    <p><span>Level:</span> Undergraduate</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="course-h2">
+            <h2>Biomedical Science</h2>
+
+        </div>
+    </div>
+    </a>
+
+
+    <a href="https://www.bathspa.ac.uk/courses/ug-business-and-management/">
+    <div class="course-container">
+        <div class="course business-and-management masonry-item">
+            <div class="description description-business-management">
+                <div class="">
+                    <p>Become a skilled, aware and conscious business and management professional who is ready to thrive in tomorrow’s workplace.</p>
+                </div> 
+                <div class="level">
+                    <p><span>Level:</span>Undergraduate</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="course-h2">
+            <h2>Business and Management</h2>
+
+        </div>
+    </div>
+    </a>
+
+    <a href="https://www.bathspa.ac.uk/courses/pg-business-and-management/">
+    <div class="course-container">
+        <div class="course business-and-management-post masonry-item">
+            <div class="description description-business-management-post">
+                <div class="">
+                    Develop your career as a socially and ethically engaged, globally connected professional who is creative, enterprising, resilient and innovative.
+                </div> 
+                <div class="level">
+                    <p><span>Level:</span>Postgraduate</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="course-h2">
+            <h2>Business and Management</h2>
+
+        </div>
+    </div>
+    </a>
+
+    <a href="https://www.bathspa.ac.uk/courses/ug-business-and-management-accounting/">
+    <div class="course-container">
+        <div class="course business-and-management-accounting masonry-item">
+            <div class="description description-business-management-accounting">
+                <div class="">
+                    <p>Develop your career as a socially and ethically engaged, globally connected professional who is creative, enterprising, resilient and innovative.
+                    </p>
+                </div> 
+                <div class="level">
+                    <p><span>Level:</span> Undergraduate</p>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="course-h2">
+            <h2>Business and Management (Accounting)</h2>
+
+        </div>
+    </div>
+    </a>
+    
+    <a href="https://www.bathspa.ac.uk/courses/ug-business-and-management-economics/">
+    <div class="course-container">
+        <div class="course business-and-management-economics masonry-item">
+            <div class="description description-business-management-economics">
+                <div class="">
+                    <p>See how the world of business and management is changing through the lens of economics in this hands-on and socially-focused degree.</p>
+                </div> 
+                <div class="level">
+                    <p><span>Level:</span> Undergraduate</p>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="course-h2">
+            <h2>Business and Management (Economics)</h2>
+
+        </div>
+    </div>
+    </a>
+
+
+    <a href="https://www.bathspa.ac.uk/courses/ug-business-and-management-entrepreneurship/">
+    <div class="course-container">
+        <div class="course business-and-management-ent masonry-item">
+            <div class="description description-business-management-ent">
+                <div class="">
+                    <p>From the seed of an idea to a fully-fledged business, entrepreneurship is at the centre of this hands-on Business and Management course.</p>
+                </div> 
+                <div class="level">
+                    <p><span>Level:</span> Undergraduate</p>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="course-h2">
+            <h2>Business and Management (Entrepreneurship)</h2>
+
+        </div>
+    </div>
+    </a>
+
+    
+    <a href="https://www.bathspa.ac.uk/courses/ug-business-and-management-fashion/">
+    <div class="course-container">
+        <div class="course business-and-management-fashion masonry-item">
+            <div class="description description-business-management-fashion">
+                <div class="">
+                    <p>A flexible, employment-focused Business and Fashion degree that you can adapt to your career aspirations.</p>
+                </div> 
+                <div class="level">
+                    <p><span>Level:</span> Undergraduate</p>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="course-h2">
+            <h2>Business and Management (Fashion)</h2>
+        </div>
+    </div>
+    </a>    
+
+    <a href="https://www.bathspa.ac.uk/courses/ug-business-and-management-festivals-and-events/">
+    <div class="course-container">
+        <div class="course business-and-management-festivals masonry-item">
+            <div class="description description-business-management-festivals">
+                <div class="">
+                    <p>Gain real-life festivals and events experience while studying in the vibrant South West.</p>
+                </div> 
+                <div class="level">
+                    <p><span>Level:</span> Undergraduate</p>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="course-h2">
+            <h2>Business and Management (festivals)</h2>
+
+        </div>
+    </div>
+    </a>
+
+
+    
+    <ul class='page-numbers'>
+        <li class="list-number">1</li>
+        <li class="list-number">2</li>
+        <li class="list-number">3</li>
+        <li class="list-number">4</li>
+        <li class="list-number">5</li>
+        <li class="list-number">6</li>
+        <li class="list-cont">...</li>
+        <li class="list-number">18</li>
+        <li class="list-number">></li>
+        <li class="list-number">>></li>
+    </ul>
+        
+        
+    </div>
+</body>
+</html>
